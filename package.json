@@ -6,9 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "serverless.com",
+  "keywords": [
+    "stock",
+    "asset",
+    "security",
+    "quote"
+  ],
+  "author": "Petri Asunmaa",
   "license": "MIT",
   "devDependencies": {
     "serverless-google-cloudfunctions": "*"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "url": "^0.11.0"
   }
 }
