@@ -1,0 +1,34 @@
+{ 
+    "isin": "FI0009005318",
+    "basicinfo": {
+        "exchange": "XHEL",
+        "ticker": "NRE1V",
+        "fullname": "Nokian Renkaat Oyj",
+        "OMXNordicID": "HEX24312",
+        "YahooID": "NRE1V.HE",
+        "GoogleID": "",
+        "OtherID": ""
+    },
+    "splits": {
+        "(date)": 0.5,
+        "$(date)": 0.25
+    },
+    "dividends": {
+        "$(date)": 1.9,
+        "$(date)": 2.3
+    },
+    "tax": {
+        "$(date)": -0.3,
+        "$(date)": -0.35
+    },
+    "closevalues": {
+        "$(date)": 45.06999969482422,
+        "$(date)": 45.4900016784668,
+        "$(date)": 45.220001220703125
+    },
+    "adjustedclosevalues": {
+        "$(date)": 45.06999969482422,
+        "$(date)": 45.4900016784668,
+        "$(date)": 45.220001220703125
+    }
+}
