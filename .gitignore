@@ -6,6 +6,7 @@ tmp
 
 # Google
 keyfile.json
+Get-Quote-Serverless-service-account.json
 
 # Logs
 *.log
