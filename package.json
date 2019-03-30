@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@google-cloud/firestore": "^1.1.0",
+    "@google-cloud/storage": "^2.4.3",
     "moment": "^2.24.0",
     "request": "^2.88.0",
     "url": "^0.11.0"
