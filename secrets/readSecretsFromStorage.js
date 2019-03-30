@@ -34,6 +34,6 @@ storage.bucket(process.env.STORAGE_BUCKET).file('app1').download()
     console.error(err)
   });
 
-exports.F = (req, res) => {
+exports.secrets = (req, res) => {
   res.send(`${username}:${password}`)
 }
