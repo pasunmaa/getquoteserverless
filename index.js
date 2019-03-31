@@ -1,7 +1,7 @@
 const { parse } = require('url')
 //import moment from 'moment'
 const moment = require('moment')
-const assetvalue = require('./assetValue.js');
+const assetvalue = require('./quotes/assetValue.js');
 
 /*
   The endpoint returns current and/or historical close values of the given security 
