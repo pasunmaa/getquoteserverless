@@ -40,7 +40,7 @@ const assetvalue = require('./assetValue.js');
 
  */
 
-exports.gethistory = async (req, res) => {
+exports.getHistory = async (req, res) => {
   // use URL?name=SAMPO.HE
   //const urlObj = parse(req.url, true)
   const { query } = parse(req.url, true)
