@@ -27,12 +27,12 @@ const assetvalue = require('./assetValue.js');
   if enddate is in future or missing, it is set set to today
 
   Google Cloud usage advice (not correct):
-  Usage: https://a302e3da577e4b882a63e1f13ca57c9b-dot-f0d4dcb9d9a36bd61-tp.appspot.com/?name=<security_name>&resformat=<JSON|CSV|text>&startdate=DDMMYYYY&startdate=DDMMYYYY
-  Example 1: https://a302e3da577e4b882a63e1f13ca57c9b-dot-f0d4dcb9d9a36bd61-tp.appspot.com/?name=SAMPO.HE
-  Example 2: https://a302e3da577e4b882a63e1f13ca57c9b-dot-f0d4dcb9d9a36bd61-tp.appspot.com/?name=METSO.HE&resformat=CSV&startdate=02012019&startdate=10012019
+  Usage: https://us-central1-platinum-form-233310.cloudfunctions.net/getHistory/?name=<security_name>&resformat=<JSON|CSV|text>&startdate=DDMMYYYY&startdate=DDMMYYYY
+  Example 1: https://us-central1-platinum-form-233310.cloudfunctions.net/getHistory/?name=SAMPO.HE
+  Example 2: https://us-central1-platinum-form-233310.cloudfunctions.net/getHistory/?name=METSO.HE&resformat=CSV&startdate=02012019&startdate=10012019
 
   Correct:
-  https://us-central1-platinum-form-233310.cloudfunctions.net/http/?name=KNEBV.he&startdate=01012018&enddate=26022019
+  https://us-central1-platinum-form-233310.cloudfunctions.net/getHistory/?name=KNEBV.he&startdate=01012018&enddate=26022019
 
   POTENTIAL FUTURE EXTENSION
   - Accept several securities to be fetced once - name(s)
