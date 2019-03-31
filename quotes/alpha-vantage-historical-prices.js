@@ -16,5 +16,8 @@ https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&outputs
 'use strict';
 
 const moment = require('moment')
+const request = require('request')
+const assetvalue = require('../secrets/readSecretsFromStorage.js')
+
 // require fetch http require ...
 

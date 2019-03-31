@@ -25,8 +25,8 @@ package:
     - keyfiles/**
 
 functions:
-  first:
-    handler: http
+  gethistory:
+    handler: quotes/index.gethistory
     events:
       - http: path
   #qetquote:

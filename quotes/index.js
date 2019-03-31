@@ -1,7 +1,7 @@
 const { parse } = require('url')
 //import moment from 'moment'
 const moment = require('moment')
-const assetvalue = require('./quotes/assetValue.js');
+const assetvalue = require('./assetValue.js');
 
 /*
   The endpoint returns current and/or historical close values of the given security 
@@ -40,7 +40,7 @@ const assetvalue = require('./quotes/assetValue.js');
 
  */
 
-exports.http = async (req, res) => {
+exports.gethistory = async (req, res) => {
   // use URL?name=SAMPO.HE
   //const urlObj = parse(req.url, true)
   const { query } = parse(req.url, true)
@@ -96,7 +96,7 @@ exports.http = async (req, res) => {
     }
   }
 }
-
+/* 
 exports.event = (event, callback) => {
   callback()
-}
+} */
