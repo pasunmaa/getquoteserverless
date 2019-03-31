@@ -1,11 +1,13 @@
 # Serverless
 .serverless
+.keyfiles
 .env
 tmp
 .coveralls.yml
 
 # Google
 keyfile.json
+Get-Quote-Serverless-service-account.json
 
 # Logs
 *.log
