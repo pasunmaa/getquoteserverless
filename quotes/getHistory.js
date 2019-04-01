@@ -96,7 +96,3 @@ exports.getHistory = async (req, res) => {
     }
   }
 }
-/* 
-exports.event = (event, callback) => {
-  callback()
-} */
