@@ -29,10 +29,10 @@ functions:
     handler: getHistory
     events:
       - http: path
-  #qetquote:
-  #  handler: http
-  #  events:
-  #    - http: path
+  helloworld:
+    handler: helloWorld
+    events:
+      - http: path
   # NOTE: the following uses an "event" event (pubSub event in this case).
   # Please create the corresponding resources in the Google Cloud
   # before deploying this service through Serverless
